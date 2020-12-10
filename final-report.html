@@ -953,7 +953,6 @@ merge_data &lt;- join_all(list(demo_data, lab_data, exam_data, questionnaire_dat
                                          (DM_pill !=1 | is.na(DM_pill)) &amp; !is.na(HOMA_IR)
                                          )
                        )
-write.csv(merge_data,&#39;merge_data.csv&#39;)
 
 # define survey design
 NHANES_all &lt;- svydesign(data=merge_data, id = ~ Variance_PSU, strata = ~ Variance_Stratum,
