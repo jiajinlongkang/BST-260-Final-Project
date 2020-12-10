@@ -39,6 +39,7 @@ Step 4. Result summary and presentation
 
 <br/>
 
-### How to navigate the repository? 
+### **How to navigate the repository?** 
 Our final Rmarkdown and HTML files are **'final report.Rmd'** and **'final report.html'**, and the shiny app is stored in the **'shiny_app'** folder with the file name **'app.R'**. 
 
+/dataset: Raw datasets
