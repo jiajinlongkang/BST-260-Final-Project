@@ -43,8 +43,13 @@ Step 4. Result summary and presentation
 Our final Rmarkdown and HTML files are **'final report.Rmd'** and **'final report.html'**, and the shiny app is stored in the **'shiny_app'** folder with the file name **'app.R'**. 
 
 /data_set: Raw datasets  
+
 /shiny_app: Shiny app for this project. Run 'app.R' to execute the app.   
+
 /pictures: Plots used to explain LASSO and AUC in our report.    
+
 clean.csv: The cleaned dataset after data wrangling, preprocessing and filtering based on preset criteria. This is the dataset used for predictive model building.    
+
 final report.Rmd: R markdown file for the project report.     
+
 final report.html: HTML file for the project report.   
