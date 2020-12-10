@@ -27,7 +27,7 @@ We used National Health and Nutrition Examination Survey (NHANES) 2009-2010 cycl
 
 **Inclusion criteria:** Adults (age>=18 years old) who participated in the NHANES 2009-2010 cycle.
 
-**Exclusion criteria:** (1) Pregnant during the questionnaire cycle; (2) Previous diagnosis of diabetes or taking anti-diabetic medications (pills or insulin); (3) Missing the response variable (i.e. HOMA-IR).
+**Exclusion criteria:** (1) Pregnant during the questionnaire cycle; (2) Previous diagnosis of diabetes or taking anti-diabetic medications (pills or insulin); (3) Missing the response variable (i.e. HOMA-IR) and/or predictors.
 
 **Variables:**
 We considered demographic and lifestyle factors from questionnaires, physical examination measures, and laboratory measures.
@@ -540,7 +540,7 @@ getSummary <- function(varformula, byformula, design){
 ```
 
 ##### **Boxplots of HOMA-IR Comparing Across Demographic Variables** 
-The boxplots show how different levels of each categorical variable affect the HOMA-IR. For categorical variables - gender, race, education level, income level - we made boxplots for these variables vs. HOMA-IR. The distributions of HOMA-IR were similar across gender, race, education level, and income level.
+The boxplots show how different levels of each demographic variable affecting the HOMA-IR. For categorical variables - gender, race, education level, income level - we made boxplots for these variables vs. HOMA-IR. The distributions of HOMA-IR were similar across gender, race, education level, and income level.
 ```{r}
 # boxplots for categorical variables - HOMA-IR 
 # Gender

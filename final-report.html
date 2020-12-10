@@ -438,7 +438,7 @@ summary {
 <h3><strong>Data</strong></h3>
 <p>We used National Health and Nutrition Examination Survey (NHANES) 2009-2010 cycle to develop prediction models for Insulin Resistance among general US population.</p>
 <p><strong>Inclusion criteria:</strong> Adults (age&gt;=18 years old) who participated in the NHANES 2009-2010 cycle.</p>
-<p><strong>Exclusion criteria:</strong> (1) Pregnant during the questionnaire cycle; (2) Previous diagnosis of diabetes or taking anti-diabetic medications (pills or insulin); (3) Missing the response variable (i.e. HOMA-IR).</p>
+<p><strong>Exclusion criteria:</strong> (1) Pregnant during the questionnaire cycle; (2) Previous diagnosis of diabetes or taking anti-diabetic medications (pills or insulin); (3) Missing the response variable (i.e. HOMA-IR) and/or predictors.</p>
 <p><strong>Variables:</strong> We considered demographic and lifestyle factors from questionnaires, physical examination measures, and laboratory measures.</p>
 </div>
 <div id="data-wrangling" class="section level3">
@@ -1495,7 +1495,7 @@ getSummary &lt;- function(varformula, byformula, design){
 </div>
 <div id="boxplots-of-homa-ir-comparing-across-demographic-variables" class="section level5">
 <h5><strong>Boxplots of HOMA-IR Comparing Across Demographic Variables</strong></h5>
-<p>The boxplots show how different levels of each categorical variable affect the HOMA-IR. For categorical variables - gender, race, education level, income level - we made boxplots for these variables vs. HOMA-IR. The distributions of HOMA-IR were similar across gender, race, education level, and income level.</p>
+<p>The boxplots show how different levels of each demographic variable affecting the HOMA-IR. For categorical variables - gender, race, education level, income level - we made boxplots for these variables vs. HOMA-IR. The distributions of HOMA-IR were similar across gender, race, education level, and income level.</p>
 <pre class="r"><code># boxplots for categorical variables - HOMA-IR 
 # Gender
 p_gender &lt;- eda %&gt;% ggplot(aes(Gender, HOMA_IR, fill=Gender)) +
