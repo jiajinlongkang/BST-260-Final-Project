@@ -54,4 +54,4 @@ final report.Rmd: R markdown file for the project report.
 
 final report.html: HTML file for the project report.   
 
-Our project website can be found [here](https://sites.google.com/view/insulinresistance). The screencase can be found [here](https://www.youtube.com/watch?v=IjeUkCC3yUQ).
+Our project website can be found [here](https://sites.google.com/view/insulinresistance). The screencast can be found [here](https://www.youtube.com/watch?v=IjeUkCC3yUQ).
